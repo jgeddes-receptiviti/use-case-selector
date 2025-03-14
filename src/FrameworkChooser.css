@@ -1,0 +1,117 @@
+/* Container for the framework chooser */
+.framework-chooser-container {
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Dropdown Container */
+.dropdown-container {
+  margin-bottom: 20px;
+}
+
+/* Dropdown Label */
+.dropdown-label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Custom Dropdown Wrapper */
+.custom-dropdown {
+  position: relative;
+  width: 100%;
+}
+
+/* Styled Dropdown */
+.use-case-dropdown {
+  width: 100%;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  background-color: #f5f7fa; /* Matches light gray background */
+  color: #333; /* Darker text for readability */
+  outline: none;
+  appearance: none; /* Hide default dropdown styles */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Custom Dropdown Arrow */
+.dropdown-arrow {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #333;
+  pointer-events: none;
+}
+
+/* When hovering over the dropdown */
+.use-case-dropdown:hover {
+  background-color: #eff1f5;
+}
+
+/* When the dropdown is focused */
+.use-case-dropdown:focus {
+  border: 1px solid #ccc;
+}
+
+/* Result Box */
+.result-box {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fdfdfd;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Result Card */
+.result-card {
+  padding: 15px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+/* Framework Links */
+.framework-link {
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  color: #0056b3;
+  transition: color 0.2s;
+}
+
+.framework-link:hover {
+  color: #003d80;
+  text-decoration: underline;
+}
+
+/* Measure Links */
+.measure-link {
+  font-size: 16px;
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.2s;
+}
+
+.measure-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.measure-link,
+.framework-link {
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+  width: 100%; /* Ensures it spans full width */
+  margin: 0 auto; /* Centers horizontally */
+}
