@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jgeddes-receptiviti/use-case-selector.git/static/css/main.94269f1d.css",
+    "main.js": "/jgeddes-receptiviti/use-case-selector.git/static/js/main.2ec1feb5.js",
+    "static/js/453.ef7e059b.chunk.js": "/jgeddes-receptiviti/use-case-selector.git/static/js/453.ef7e059b.chunk.js",
+    "index.html": "/jgeddes-receptiviti/use-case-selector.git/index.html",
+    "main.94269f1d.css.map": "/jgeddes-receptiviti/use-case-selector.git/static/css/main.94269f1d.css.map",
+    "main.2ec1feb5.js.map": "/jgeddes-receptiviti/use-case-selector.git/static/js/main.2ec1feb5.js.map",
+    "453.ef7e059b.chunk.js.map": "/jgeddes-receptiviti/use-case-selector.git/static/js/453.ef7e059b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94269f1d.css",
+    "static/js/main.2ec1feb5.js"
+  ]
+}
